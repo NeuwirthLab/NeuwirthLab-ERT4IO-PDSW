@@ -4,8 +4,16 @@ To better understand the I/O behavior of emerging workloads, provide a more comp
 
 **ERT4IO** (https://github.com/NeuwirthLab/ERT4IO) is a Python script that plots the I/O Roofline graph for applications and benchmarks. It was originally based on parsed text files from Darshan outputs. In this work, we extend ERT4IO to also parse data from different output formats.
 
-
 ## Usage
 
 ```sh
 python roofline.py
+```
+
+Make sure you have the following Python packages installed:
+
+- Python ≥ 3.8
+- numpy  
+- pandas  
+- matplotlib  
+- matplotlib-label-line
