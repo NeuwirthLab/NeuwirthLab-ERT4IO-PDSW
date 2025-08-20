@@ -1,0 +1,76 @@
+Detailed Statistics Summary
+Generated: Wed Jul 30 21:59:55 PDT 2025
+Note: Statistics calculated internally by s2_mpi program
+==============================
+
+Configuration: 1 tasks/node, 1M
+----------------------------------------
+
+Configuration: 1 tasks/node, 50M
+----------------------------------------
+
+Configuration: 1 tasks/node, 100M
+----------------------------------------
+
+Configuration: 1 tasks/node, DEFAULT
+----------------------------------------
+
+Configuration: 2 tasks/node, 1M
+----------------------------------------
+
+Configuration: 2 tasks/node, 50M
+----------------------------------------
+
+Configuration: 2 tasks/node, 100M
+----------------------------------------
+
+Configuration: 2 tasks/node, DEFAULT
+----------------------------------------
+
+Configuration: 4 tasks/node, 1M
+----------------------------------------
+
+Configuration: 4 tasks/node, 50M
+----------------------------------------
+
+Configuration: 4 tasks/node, 100M
+----------------------------------------
+
+Configuration: 4 tasks/node, DEFAULT
+----------------------------------------
+
+Configuration: 8 tasks/node, 1M
+----------------------------------------
+
+Configuration: 8 tasks/node, 50M
+----------------------------------------
+
+Configuration: 8 tasks/node, 100M
+----------------------------------------
+
+Configuration: 8 tasks/node, DEFAULT
+----------------------------------------
+
+Configuration: 16 tasks/node, 1M
+----------------------------------------
+
+Configuration: 16 tasks/node, 50M
+----------------------------------------
+
+Configuration: 16 tasks/node, 100M
+----------------------------------------
+
+Configuration: 16 tasks/node, DEFAULT
+----------------------------------------
+
+Configuration: 32 tasks/node, 1M
+----------------------------------------
+
+Configuration: 32 tasks/node, 50M
+----------------------------------------
+
+Configuration: 32 tasks/node, 100M
+----------------------------------------
+
+Configuration: 32 tasks/node, DEFAULT
+----------------------------------------

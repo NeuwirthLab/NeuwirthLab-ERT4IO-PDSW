@@ -1,0 +1,17 @@
+S3 MPI Benchmark Summary Report (3 trials each - internal)
+Generated: Thu Jul 31 03:19:20 PDT 2025
+Nodes: 10
+File Size: 100 MB
+S3 Bucket: sagemaker-us-west-2-024848459949
+Number of trials per configuration: 3
+
+Configuration | Transfer Size | Total Tasks | Mean Per-Rank (MB/s) | StdDev | Aggregate TP (MB/s) | Mean Duration (s) | Success Rate
+-------------|---------------|-------------|----------------------|--------|---------------------|-------------------|-------------
+16 tasks/node |            1M |         160 |             0.767459 |        |                     |                   |            
+16 tasks/node |           50M |         160 |             0.281008 |        |                     |                   |            
+16 tasks/node |          100M |         160 |              0.54444 |        |                     |                   |            
+16 tasks/node |       DEFAULT |         160 |             0.654169 |        |                     |                   |            
+32 tasks/node |            1M |         320 |             0.318633 |        |                     |                   |            
+32 tasks/node |           50M |         320 |             0.335558 |        |                     |                   |            
+32 tasks/node |          100M |         320 |             0.347213 |        |                     |                   |            
+32 tasks/node |       DEFAULT |         320 |             0.327549 |        |                     |                   |            

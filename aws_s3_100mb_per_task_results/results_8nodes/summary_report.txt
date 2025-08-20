@@ -1,0 +1,33 @@
+S3 MPI Benchmark Summary Report (3 trials each - internal)
+Generated: Wed Jul 30 21:59:54 PDT 2025
+Nodes: 8
+File Size: 100 MB
+S3 Bucket: sagemaker-us-west-2-024848459949
+Number of trials per configuration: 3
+
+Configuration | Transfer Size | Total Tasks | Mean Per-Rank (MB/s) | StdDev | Aggregate TP (MB/s) | Mean Duration (s) | Success Rate
+-------------|---------------|-------------|----------------------|--------|---------------------|-------------------|-------------
+1 tasks/node |            1M |           8 |              12.6814 |        |                     |                   |            
+1 tasks/node |           50M |           8 |               13.549 |        |                     |                   |            
+1 tasks/node |          100M |           8 |              11.8611 |        |                     |                   |            
+1 tasks/node |       DEFAULT |           8 |              13.6692 |        |                     |                   |            
+2 tasks/node |            1M |          16 |              6.76982 |        |                     |                   |            
+2 tasks/node |           50M |          16 |              6.91406 |        |                     |                   |            
+2 tasks/node |          100M |          16 |              6.94407 |        |                     |                   |            
+2 tasks/node |       DEFAULT |          16 |              8.08886 |        |                     |                   |            
+4 tasks/node |            1M |          32 |              3.49349 |        |                     |                   |            
+4 tasks/node |           50M |          32 |              3.76348 |        |                     |                   |            
+4 tasks/node |          100M |          32 |              3.48704 |        |                     |                   |            
+4 tasks/node |       DEFAULT |          32 |              3.64226 |        |                     |                   |            
+8 tasks/node |            1M |          64 |              1.77065 |        |                     |                   |            
+8 tasks/node |           50M |          64 |              1.77806 |        |                     |                   |            
+8 tasks/node |          100M |          64 |              1.85297 |        |                     |                   |            
+8 tasks/node |       DEFAULT |          64 |              1.87179 |        |                     |                   |            
+16 tasks/node |            1M |         128 |             0.885284 |        |                     |                   |            
+16 tasks/node |           50M |         128 |             0.923818 |        |                     |                   |            
+16 tasks/node |          100M |         128 |             0.923708 |        |                     |                   |            
+16 tasks/node |       DEFAULT |         128 |             0.875922 |        |                     |                   |            
+32 tasks/node |            1M |         256 |             0.452263 |        |                     |                   |            
+32 tasks/node |           50M |         256 |             0.445483 |        |                     |                   |            
+32 tasks/node |          100M |         256 |             0.444928 |        |                     |                   |            
+32 tasks/node |       DEFAULT |         256 |             0.454297 |        |                     |                   |            

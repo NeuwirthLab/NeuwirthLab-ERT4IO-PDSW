@@ -1,0 +1,367 @@
+==========================================
+S3 MPI Benchmark Test
+Nodes: 4
+File Size: 100 MB
+S3 Bucket: sagemaker-us-west-2-024848459949
+Transfer Sizes: 1M 50M 100M DEFAULT
+Tasks per Node: 1 2 4 8 16 32
+Temp Directory: /tmp/s3_benchmark_$
+Results Directory: results_4nodes_20250730_133038
+==========================================
+Created temp directory: /tmp/s3_benchmark_$
+
+==========================================
+Configuration: 1 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 1 tasks/node, 4 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 4 --map-by ppr:1:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:30:38 PDT 2025
+Completed at: Wed Jul 30 13:31:32 PDT 2025
+Duration: 54 seconds
+Exit code: 0
+
+==========================================
+Configuration: 1 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 1 tasks/node, 4 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 4 --map-by ppr:1:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:31:57 PDT 2025
+Completed at: Wed Jul 30 13:32:44 PDT 2025
+Duration: 47 seconds
+Exit code: 0
+
+==========================================
+Configuration: 1 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 1 tasks/node, 4 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 4 --map-by ppr:1:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:33:09 PDT 2025
+Completed at: Wed Jul 30 13:33:57 PDT 2025
+Duration: 48 seconds
+Exit code: 0
+
+==========================================
+Configuration: 1 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 1 tasks/node, 4 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 4 --map-by ppr:1:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:34:23 PDT 2025
+Completed at: Wed Jul 30 13:35:12 PDT 2025
+Duration: 49 seconds
+Exit code: 0
+
+==========================================
+Configuration: 2 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 2 tasks/node, 8 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 8 --map-by ppr:2:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:35:37 PDT 2025
+Completed at: Wed Jul 30 13:36:46 PDT 2025
+Duration: 69 seconds
+Exit code: 0
+
+==========================================
+Configuration: 2 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 2 tasks/node, 8 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 8 --map-by ppr:2:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:37:11 PDT 2025
+Completed at: Wed Jul 30 13:38:24 PDT 2025
+Duration: 73 seconds
+Exit code: 0
+
+==========================================
+Configuration: 2 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 2 tasks/node, 8 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 8 --map-by ppr:2:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:38:49 PDT 2025
+Completed at: Wed Jul 30 13:40:00 PDT 2025
+Duration: 71 seconds
+Exit code: 0
+
+==========================================
+Configuration: 2 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 2 tasks/node, 8 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 8 --map-by ppr:2:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:40:25 PDT 2025
+Completed at: Wed Jul 30 13:41:34 PDT 2025
+Duration: 69 seconds
+Exit code: 0
+
+==========================================
+Configuration: 4 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 4 tasks/node, 16 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 16 --map-by ppr:4:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:41:59 PDT 2025
+Completed at: Wed Jul 30 13:43:51 PDT 2025
+Duration: 112 seconds
+Exit code: 0
+
+==========================================
+Configuration: 4 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 4 tasks/node, 16 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 16 --map-by ppr:4:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:44:16 PDT 2025
+Completed at: Wed Jul 30 13:46:11 PDT 2025
+Duration: 115 seconds
+Exit code: 0
+
+==========================================
+Configuration: 4 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 4 tasks/node, 16 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 16 --map-by ppr:4:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:46:36 PDT 2025
+Completed at: Wed Jul 30 13:48:32 PDT 2025
+Duration: 116 seconds
+Exit code: 0
+
+==========================================
+Configuration: 4 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 4 tasks/node, 16 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 16 --map-by ppr:4:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:48:58 PDT 2025
+Completed at: Wed Jul 30 13:50:49 PDT 2025
+Duration: 111 seconds
+Exit code: 0
+
+==========================================
+Configuration: 8 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 8 tasks/node, 32 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 32 --map-by ppr:8:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:51:14 PDT 2025
+Completed at: Wed Jul 30 13:54:36 PDT 2025
+Duration: 202 seconds
+Exit code: 0
+
+==========================================
+Configuration: 8 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 8 tasks/node, 32 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 32 --map-by ppr:8:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:55:01 PDT 2025
+Completed at: Wed Jul 30 13:58:22 PDT 2025
+Duration: 201 seconds
+Exit code: 0
+
+==========================================
+Configuration: 8 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 8 tasks/node, 32 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 32 --map-by ppr:8:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 13:58:47 PDT 2025
+Completed at: Wed Jul 30 14:02:04 PDT 2025
+Duration: 197 seconds
+Exit code: 0
+
+==========================================
+Configuration: 8 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 8 tasks/node, 32 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 32 --map-by ppr:8:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:02:29 PDT 2025
+Completed at: Wed Jul 30 14:05:48 PDT 2025
+Duration: 198 seconds
+Exit code: 0
+
+==========================================
+Configuration: 16 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 16 tasks/node, 64 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 64 --map-by ppr:16:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:06:13 PDT 2025
+Completed at: Wed Jul 30 14:12:28 PDT 2025
+Duration: 375 seconds
+Exit code: 0
+
+==========================================
+Configuration: 16 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 16 tasks/node, 64 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 64 --map-by ppr:16:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:12:53 PDT 2025
+Completed at: Wed Jul 30 14:19:07 PDT 2025
+Duration: 374 seconds
+Exit code: 0
+
+==========================================
+Configuration: 16 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 16 tasks/node, 64 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 64 --map-by ppr:16:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:19:32 PDT 2025
+Completed at: Wed Jul 30 14:25:40 PDT 2025
+Duration: 368 seconds
+Exit code: 0
+
+==========================================
+Configuration: 16 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 16 tasks/node, 64 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 64 --map-by ppr:16:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:26:05 PDT 2025
+Completed at: Wed Jul 30 14:32:13 PDT 2025
+Duration: 368 seconds
+Exit code: 0
+
+==========================================
+Configuration: 32 tasks/node, 1M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 32 tasks/node, 128 total tasks, 1M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 128 --map-by ppr:32:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 1024 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:32:38 PDT 2025
+Completed at: Wed Jul 30 14:44:34 PDT 2025
+Duration: 716 seconds
+Exit code: 0
+
+==========================================
+Configuration: 32 tasks/node, 50M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 32 tasks/node, 128 total tasks, 50M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 128 --map-by ppr:32:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 51200 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:44:59 PDT 2025
+Completed at: Wed Jul 30 14:56:54 PDT 2025
+Duration: 715 seconds
+Exit code: 0
+
+==========================================
+Configuration: 32 tasks/node, 100M transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 32 tasks/node, 128 total tasks, 100M transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 128 --map-by ppr:32:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 102400 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 14:57:19 PDT 2025
+Completed at: Wed Jul 30 15:09:15 PDT 2025
+Duration: 716 seconds
+Exit code: 0
+
+==========================================
+Configuration: 32 tasks/node, DEFAULT transfer size
+==========================================
+
+----------------------------------------
+Running: 4 nodes, 32 tasks/node, 128 total tasks, DEFAULT transfer size (3 trials)
+----------------------------------------
+Command: mpirun -np 128 --map-by ppr:32:node ./s2_mpi 100 sagemaker-us-west-2-024848459949 us-west-2 -1 /tmp/s3_benchmark_$ 3
+Started at: Wed Jul 30 15:09:40 PDT 2025
+Completed at: Wed Jul 30 15:21:34 PDT 2025
+Duration: 714 seconds
+Exit code: 0
+
+==========================================
+All benchmarks completed!
+Results saved in: results_4nodes_20250730_133038/
+==========================================
+
+Summary report: results_4nodes_20250730_133038/summary_report.txt
+S3 MPI Benchmark Summary Report (3 trials each - internal)
+Generated: Wed Jul 30 15:21:59 PDT 2025
+Nodes: 4
+File Size: 100 MB
+S3 Bucket: sagemaker-us-west-2-024848459949
+Number of trials per configuration: 3
+
+Configuration | Transfer Size | Total Tasks | Mean Per-Rank (MB/s) | StdDev | Aggregate TP (MB/s) | Mean Duration (s) | Success Rate
+-------------|---------------|-------------|----------------------|--------|---------------------|-------------------|-------------
+1 tasks/node |            1M |           4 |              16.6915 |        |                     |                   |            
+1 tasks/node |           50M |           4 |              20.5368 |        |                     |                   |            
+1 tasks/node |          100M |           4 |              24.4491 |        |                     |                   |            
+1 tasks/node |       DEFAULT |           4 |              29.5479 |        |                     |                   |            
+2 tasks/node |            1M |           8 |              19.4147 |        |                     |                   |            
+2 tasks/node |           50M |           8 |              12.1616 |        |                     |                   |            
+2 tasks/node |          100M |           8 |              12.9412 |        |                     |                   |            
+2 tasks/node |       DEFAULT |           8 |              12.2136 |        |                     |                   |            
+4 tasks/node |            1M |          16 |              6.74364 |        |                     |                   |            
+4 tasks/node |           50M |          16 |              6.35886 |        |                     |                   |            
+4 tasks/node |          100M |          16 |              7.11936 |        |                     |                   |            
+4 tasks/node |       DEFAULT |          16 |              6.85909 |        |                     |                   |            
+8 tasks/node |            1M |          32 |              3.62938 |        |                     |                   |            
+8 tasks/node |           50M |          32 |              3.63297 |        |                     |                   |            
+8 tasks/node |          100M |          32 |              3.71484 |        |                     |                   |            
+8 tasks/node |       DEFAULT |          32 |              3.71811 |        |                     |                   |            
+16 tasks/node |            1M |          64 |              1.74209 |        |                     |                   |            
+16 tasks/node |           50M |          64 |              1.89615 |        |                     |                   |            
+16 tasks/node |          100M |          64 |               1.8401 |        |                     |                   |            
+16 tasks/node |       DEFAULT |          64 |              1.82556 |        |                     |                   |            
+32 tasks/node |            1M |         128 |             0.949452 |        |                     |                   |            
+32 tasks/node |           50M |         128 |             0.903894 |        |                     |                   |            
+32 tasks/node |          100M |         128 |             0.889401 |        |                     |                   |            
+32 tasks/node |       DEFAULT |         128 |             0.901167 |        |                     |                   |            
+
+Detailed statistics: results_4nodes_20250730_133038/detailed_statistics.txt
+
+Cleaning up temp directory: /tmp/s3_benchmark_$

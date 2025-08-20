@@ -1,0 +1,1770 @@
+Job started on Mon Aug  4 17:31:16 PDT 2025
+Allocated Nodes: dc037
+dc041
+dc042
+dc044
+dc048
+dc049
+dc053
+dc055
+Cleaning up old AWS & Darshan logs...
+Cleanup done. Setting up environment variables...
+hostlist: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055,
+Checking and mounting AWS Fuse path on all nodes...
+Checking AWS mount on dc037...
+dc037: Already mounted.
+Checking AWS mount on dc041...
+dc041: Already mounted.
+Checking AWS mount on dc042...
+dc042: Already mounted.
+Checking AWS mount on dc044...
+dc044: Already mounted.
+Checking AWS mount on dc048...
+dc048: Already mounted.
+Checking AWS mount on dc049...
+dc049: Already mounted.
+Checking AWS mount on dc053...
+dc053: Not mounted. Attempting to mount...
+Filesystem                          Type  Size  Used Avail Use% Mounted on
+172.16.110.53:/sgw-2024-10-23-l1jlp nfs4  8.0E     0  8.0E   0% /tmp/tang584/aws_1n_test
+dc053: Mount successful.
+Checking AWS mount on dc055...
+dc055: Already mounted.
+All nodes checked and mounted.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 1 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 8 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t1/1_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 1 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 1 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 8 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t2/1_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 1 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 1 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 8 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_1_ts4k_bs4k_t3/1_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 1 processes (Trial 3) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 2 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 16 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t1/2_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 2 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 2 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 16 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t2/2_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 2 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 2 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 16 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_2_ts4k_bs4k_t3/2_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 2 processes (Trial 3) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 4 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 32 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t1/4_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 4 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 4 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 32 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t2/4_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 4 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 4 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 32 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_4_ts4k_bs4k_t3/4_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 4 processes (Trial 3) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 8 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 64 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t1/8_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 8 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 8 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 64 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t2/8_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 8 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 8 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 64 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_8_ts4k_bs4k_t3/8_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 8 processes (Trial 3) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 16 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 128 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t1/16_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 16 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 16 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 128 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t2/16_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 16 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 16 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 128 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_16_ts4k_bs4k_t3/16_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 16 processes (Trial 3) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 32 processes (Trial 1)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 256 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t1/32_ts4k_bs4k_t1.json
+Moving results...
+IOR test for 32 processes (Trial 1) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 32 processes (Trial 2)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 256 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t2/32_ts4k_bs4k_t2.json
+Moving results...
+IOR test for 32 processes (Trial 2) completed.
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+vm.drop_caches = 3
+Running IOR test with 32 processes (Trial 3)...
+Running on nodes: dc037,dc041,dc042,dc044,dc048,dc049,dc053,dc055, with 256 processes
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Writing output to /qfs/projects/datamesh/tang584/ERT4IO/aws_fuse_bench/8n_result_ior_32_ts4k_bs4k_t3/32_ts4k_bs4k_t3.json
+Moving results...
+IOR test for 32 processes (Trial 3) completed.
+Job completed on Mon Aug  4 17:35:59 PDT 2025.

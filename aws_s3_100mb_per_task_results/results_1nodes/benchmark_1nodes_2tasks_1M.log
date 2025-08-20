@@ -1,0 +1,170 @@
+=== S3 MPI BENCHMARK LOG ===
+Configuration: 1 nodes, 2 tasks/node, 1M transfer size
+Total tasks: 2
+File size: 100 MB
+Transfer size: 1M (1024 KB)
+Number of trials: 3
+Started at: Tue Jul 29 22:36:44 PDT 2025
+
+Using region: us-west-2
+Transfer chunk size: 1024 KB
+Temp directory: /tmp/s3_benchmark_$
+Number of trials: 3
+Using single-part upload (chunk size < 5MB AWS multipart minimum)
+Generating test files (100 MB each)...
+Generated file size: 100 MB
+Generated file size: 100 MB
+File size per process: 100 MB
+Operations per process: 1
+
+============================================================
+STARTING UPLOAD TESTS TO S3
+============================================================
+
+========================================
+UPLOAD TRIAL 1/3
+========================================
+Rank 0: upload successful (46.8683 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+Rank 1: upload successful (31.4679 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+
+--- Upload Trial 1 Summary ---
+Rank 0: 46.8683 MB/s (1 ops)
+Rank 1: 31.4679 MB/s (1 ops)
+Average upload bandwidth: 39.1681 MB/s
+Total upload throughput: 78.3362 MB/s
+Upload trial duration: 2.13373 seconds
+Successful upload ranks: 2/2
+Total operations: 2 ops
+Operations per process: 1 ops
+
+========================================
+UPLOAD TRIAL 2/3
+========================================
+Rank 0: upload successful (56.0961 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+Rank 1: upload successful (34.1487 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+
+--- Upload Trial 2 Summary ---
+Rank 0: 56.0961 MB/s (1 ops)
+Rank 1: 34.1487 MB/s (1 ops)
+Average upload bandwidth: 45.1224 MB/s
+Total upload throughput: 90.2447 MB/s
+Upload trial duration: 1.78272 seconds
+Successful upload ranks: 2/2
+Total operations: 2 ops
+Operations per process: 1 ops
+
+========================================
+UPLOAD TRIAL 3/3
+========================================
+Rank 0: upload successful (56.0432 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+Rank 1: upload successful (33.9352 MB/s, 1 ops) [single-part (chunk < 5MB AWS limit)]
+
+--- Upload Trial 3 Summary ---
+Rank 0: 56.0432 MB/s (1 ops)
+Rank 1: 33.9352 MB/s (1 ops)
+Average upload bandwidth: 44.9892 MB/s
+Total upload throughput: 89.9784 MB/s
+Upload trial duration: 1.7844 seconds
+Successful upload ranks: 2/2
+Total operations: 2 ops
+Operations per process: 1 ops
+
+========================================
+FINAL UPLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful upload trials: 3/3
+Upload bandwidth per rank:
+  Mean: 53.0025 MB/s
+  Std Dev: 4.33759 MB/s
+  Values: 46.8683 56.0961 56.0432 
+Upload trial duration:
+  Mean: 1.90028 seconds
+  Std Dev: 0.165072 seconds
+  Values: 2.13373 1.78272 1.7844 
+Aggregate upload throughput: 106.005 MB/s
+Operations per process: 1 ops
+Total operations: 2 ops
+
+============================================================
+STARTING DOWNLOAD TESTS FROM S3 TO BEEGFS
+============================================================
+BeeGFS download directory: /rcfs/projects/datamesh/tang584/ior_cp_data
+Created BeeGFS download directory
+
+========================================
+DOWNLOAD TRIAL 1/3
+========================================
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 1: download successful (53.7238 MB/s, 100 MB)
+Rank 0: download successful (50.016 MB/s, 100 MB)
+
+--- Download Trial 1 Summary ---
+Rank 0: 50.016 MB/s (download)
+Rank 1: 53.7238 MB/s (download)
+Average download bandwidth: 51.8699 MB/s
+Total download throughput: 103.74 MB/s
+Download trial duration: 1.9999 seconds
+Successful download ranks: 2/2
+Rank 0: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 2/3
+========================================
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 1: download successful (62.5761 MB/s, 100 MB)
+Rank 0: download successful (52.6047 MB/s, 100 MB)
+
+--- Download Trial 2 Summary ---
+Rank 0: 52.6047 MB/s (download)
+Rank 1: 62.5761 MB/s (download)
+Average download bandwidth: 57.5904 MB/s
+Total download throughput: 115.181 MB/s
+Download trial duration: 1.9015 seconds
+Successful download ranks: 2/2
+Rank 0: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 3/3
+========================================
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 1: download successful (57.3376 MB/s, 100 MB)
+Rank 0: download successful (52.27 MB/s, 100 MB)
+
+--- Download Trial 3 Summary ---
+Rank 0: 52.27 MB/s (download)
+Rank 1: 57.3376 MB/s (download)
+Average download bandwidth: 54.8038 MB/s
+Total download throughput: 109.608 MB/s
+Download trial duration: 1.91362 seconds
+Successful download ranks: 2/2
+
+========================================
+FINAL DOWNLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful download trials: 3/3
+Download bandwidth per rank:
+  Mean: 51.6302 MB/s
+  Std Dev: 1.14961 MB/s
+  Values: 50.016 52.6047 52.27 
+Download trial duration:
+  Mean: 1.93834 seconds
+  Std Dev: 0.0438094 seconds
+  Values: 1.9999 1.9015 1.91362 
+Aggregate download throughput: 103.26 MB/s
+
+Cleaned up BeeGFS download directory
+
+=== OVERALL BENCHMARK SUMMARY ===
+Configuration: 1 nodes, 2 tasks/node, 1M
+Total tasks: 2
+File size: 100 MB
+Transfer size: 1M (1024 KB)
+Number of trials: 3
+Total duration: 33 seconds
+Exit code: 0
+Completed at: Tue Jul 29 22:37:17 PDT 2025
